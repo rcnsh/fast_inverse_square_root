@@ -13,6 +13,6 @@ fn q_rsqrt(number: f32) -> f32 {
 }
 
 fn main(){
-    let ans = q_rsqrt(2);
+    let ans = q_rsqrt(2.0);
     println!("{}", ans);
 }
